@@ -10,6 +10,9 @@
 
 # ocamlbuild working directory
 _build/
+bin/
+lib/
+doc/
 
 # ocamlbuild targets
 *.byte
@@ -27,3 +30,6 @@ setup.log
 
 # Local OPAM switch
 _opam/
+
+# Code
+.vscode
